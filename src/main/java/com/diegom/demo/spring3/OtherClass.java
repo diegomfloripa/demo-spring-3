@@ -2,11 +2,7 @@ package com.diegom.demo.spring3;
 
 public class OtherClass {
 
-    public void testSonar() {
-        String val = null;
-
-        if(val.contains("a")) {
-            System.out.println("a");
-        }
+    public boolean isValid(int value) {
+        return value > 0;
     }
 }
